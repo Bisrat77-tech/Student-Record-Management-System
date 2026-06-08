@@ -95,20 +95,20 @@ NumberFormatException → Validate user input
 EOFException → Handle corrupted binary files
 ```
 ---
-## Requirements Met
+## 📎Requirements Met
 
 ```
 Requirement	                               Implementation
 
 Student class with ID, Name, Dept, GPA	      Student.java
-Add/Search/Update/Delete/Display	      StudentManager.java
-Text files (Scanner/PrintWriter)	      TextFileManager.java
-Binary files (Data streams)	              BinaryFileManager.java
-Object Serialization	                      SerializationFileManager.java
-Report (Total, Highest, Lowest, Average)      ReportGenerator.java
-File class properties	                      displayFileProperties() methods
-Buffered backup	                              BackupService.java
-Exception handling	                      Try-catch blocks throughout
+Add/Search/Update/Delete/Display	            StudentManager.java
+Text files (Scanner/PrintWriter)	            TextFileManager.java
+Binary files (Data streams)	               BinaryFileManager.java
+Object Serialization	                        SerializationFileManager.java
+Report (Total, Highest, Lowest, Average)     ReportGenerator.java
+File class properties	                     displayFileProperties() methods
+Buffered backup	                           BackupService.java
+Exception handling	                        Try-catch blocks throughout
 
 ```
 ---
