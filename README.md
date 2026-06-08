@@ -21,14 +21,14 @@ A Java-based student management system that demonstrates three different file I/
 ```
 StudentRecordSystem/
 ├── src/
-│ ├── Student.java # Model class (implements Serializable)
-│ ├── TextFileManager.java # Text I/O using Scanner/PrintWriter
-│ ├── BinaryFileManager.java # Binary I/O using Data streams
+│ ├── Student.java                  # Model class (implements Serializable)
+│ ├── TextFileManager.java          # Text I/O using Scanner/PrintWriter
+│ ├── BinaryFileManager.java        # Binary I/O using Data streams
 │ ├── SerializationFileManager.java # Object I/O using Object streams
-│ ├── StudentManager.java # CRUD operations + storage abstraction
-│ ├── ReportGenerator.java # Statistics generation
-│ ├── BackupService.java # Buffered stream backup
-│ └── Main.java # Menu-driven interface
+│ ├── StudentManager.java           # CRUD operations + storage abstraction
+│ ├── ReportGenerator.java          # Statistics generation
+│ ├── BackupService.java            # Buffered stream backup
+│ └── Main.java                     # Menu-driven interface
 ├── data/
 │ ├── students.txt # Text storage (CSV format)
 │ ├── students.dat # Binary storage
